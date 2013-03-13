@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="social-text" type="text" default="Follow Us" label="" position="left" class="widefat" />
+		<field name="social-facebook" type="text" default="" label="Facebook Link" position="left" class="widefat" />
+		<field name="social-twitter" type="text" default="" label="Twitter Link" position="left" class="widefat" />
+		<field name="social-google" type="text" default="" label="Google Link" position="left" class="widefat" />
+		<field name="social-rss" type="text" default="" label="RSS Link" position="left" class="widefat" />
+	</fieldset>
+</form>

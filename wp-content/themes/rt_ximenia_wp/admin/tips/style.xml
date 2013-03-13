@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+
+	<tip label="Logo" id="logo"><![CDATA[This setting allows you to enable/disable the display the Logo. By default the Logo feature uses the image located in <strong>{template_name}/images/logo/style#/logo.png</strong>, so replacing this image is the simplest way to update the logo.]]></tip>
+
+	<tip label="Main Style" id="main"><![CDATA[<strong>Main Style</strong> configuration panel. Choose the Main color style and overlay style that you would like to use.]]></tip>
+	
+	<tip label="Load Transition" id="loadtransition"><![CDATA[Enable or disable the page loading transition animation effects.]]></tip>
+	
+	<tip label="Pagination" id="pagination"><![CDATA[Allows you to choose the type of pagination you want to use. Full pagination contains the page numbers and buttons for the next and previous page where the Simple pagination has only buttons to switch pages.]]></tip>
+		
+	<tip label="Thumbnail Size" id="thumb"><![CDATA[The settings for width and height allow you to set the <strong>Thumbnail Size</strong> for thumbnail images that will appear next to your posts on blog, archive and search pages, etc.]]></tip>
+	
+	<tip label="WebFonts" id="webfonts"><![CDATA[This setting allows you to use <strong>3rd party WebFonts</strong> from providers such as Google. You must first set WebFonts to show and then save your changes, then the available WebFonts will appear in the Font Settings dropdown from where they can be selected.]]></tip>
+	
+	<tip label="Font Settings" id="font"><![CDATA[A selection of fonts to be applied to your site's frontend is available from the <strong>Font Settings</strong> dropdown. It is also possible to set the <strong>Font Size</strong> according to your preference.]]></tip>
+	
+	<tip label="Wordpress Comments" id="wordpress-comments"><![CDATA[This is a global setting that loads the comments form in the theme. If you want to use a 3rd party comments solution please disable that toggle to keep the WordPress comments enabled, but not loaded in the Gantry based theme.]]></tip>
+	
+	<tip label="Comments Style" id="comments-style"><![CDATA[Here you can choose the layout that you'd like to use to display comments in your content. The Standard one has more advanced graphics but doesn't support threaded comments, the basic one is simplier and supports threaded comments.]]></tip>
+	
+	<tip label="Custom CSS" id="customcss"><![CDATA[This field lets you easily add inline css code to your site ie. body {font-weight: bold;}]]></tip>
+	
+</gantrytips>

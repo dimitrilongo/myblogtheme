@@ -1,0 +1,61 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* Features - Layout Showcase - Core */
+.layout-showcase {position: relative;}
+.layout-showcase:after {display: table;content: "";clear: both;}
+.layout-showcase ul {list-style: none !important;margin: 0;padding: 0;}
+
+/* Features - Layout Showcase - Content */
+.layout-showcase .sprocket-features-container {position: relative;}
+.layout-showcase .sprocket-features-list {position: relative;padding: 0 !important;}
+.layout-showcase .sprocket-features-list li {position: relative;top: 0;left: 0;opacity: 0;width: 100%;height: 100%;display: none;float: left;}
+.layout-showcase .sprocket-features-list li.active {position: relative;height: auto;opacity: 1;display: block;}
+.arrows-active .sprocket-features-list {margin-left: 65px;margin-right: 65px;}
+.layout-showcase .sprocket-features-title {width: 42%;text-align: center;}
+.layout-showcase .sprocket-features-title a {font-size: 2.5em;line-height: 1em;margin-bottom: 0;}
+.layout-showcase .sprocket-features-img-container img {float: right;margin-left: 25px;margin-bottom: -70px;}
+.layout-showcase .sprocket-features-desc {position: absolute;width: 375px;font-size: 1.1em;}
+.layout-showcase .sprocket-features-desc-top {background-repeat: no-repeat;height: 13px;}
+.layout-showcase .sprocket-features-desc-bottom {background-repeat: no-repeat;height: 13px;}
+.layout-showcase .sprocket-features-desc-surround {margin: 0 12px;}
+.layout-showcase .sprocket-features-desc-surround2 {margin-left: -12px;background-repeat: repeat-y;}
+.layout-showcase .sprocket-features-desc-surround3 {margin-right: -12px;padding: 5px 35px 0;background-repeat: repeat-y;background-position: 100% 0;}
+.sprocket-features-content {position: absolute;width: 100%;}
+.layout-showcase .readon {padding: 0;position: absolute;border-radius: 100%;font-size: 1.2em;border: 10px solid;left: 50%;width: 120px;height: 120px;background-image: none;-webkit-transition: background 0.2s ease-in;-moz-transition: background 0.2s ease-in;-o-transition: background 0.2s ease-in;-ms-transition: background 0.2s ease-in;transition: background 0.2s ease-in;}
+.layout-showcase .readon span {display: block;text-align: center;font-size: 1.1em;}
+.layout-showcase .readon .symbol {font-weight: normal;font-size: 2.8em;margin: 28px 0 8px 0;}
+.layout-showcase .readon:after {border: none;}
+.layout-showcase .readon span:after {display: none;}
+
+/* Features - Layout Showcase - Navigation */
+.layout-showcase .sprocket-features-arrows .arrow {position: absolute;display: block;width: 45px;height: 90px;top: 50%;margin-top: -12px;border-radius: 6px;cursor: pointer;z-index: 10;text-align: center;font-size: 2.2em;background-repeat: repeat-x;}
+.layout-showcase .sprocket-features-arrows .arrow span {background-repeat: no-repeat;height: 37px;position: absolute;width: 20px;display: block;right: 12px;top: 25px;text-indent: -999px;}
+.layout-showcase .sprocket-features-arrows .arrow.prev:hover span {background-position: 0 -146px;}
+.layout-showcase .sprocket-features-arrows .arrow.prev span {background-position: 0 -316px;}
+.layout-showcase .sprocket-features-arrows .arrow.next span {background-position: 0 -473px;}
+.layout-showcase .sprocket-features-arrows .arrow.next:hover span {background-position: 0 4px;}
+.layout-showcase .sprocket-features-arrows .prev {left: 10px;}
+.layout-showcase .sprocket-features-arrows .next {right: 10px;}
+.layout-showcase .sprocket-features-pagination {position: absolute;left: 50px;bottom: 0;z-index: 10;padding: 0 !important;}
+.layout-showcase .sprocket-features-pagination-hidden {display: none;}
+.layout-showcase .sprocket-features-pagination li {width: 32px;height: 20px;cursor: pointer;float: left;background-position: -32px 0;}
+.layout-showcase .sprocket-features-pagination li:hover {background-position: -64px 0;}
+.layout-showcase .sprocket-features-pagination li.active {background-position: 0 0;}
+.layout-showcase .sprocket-features-pagination li:last-child {width: 16px;}
+.layout-showcase .sprocket-features-pagination-hidden {display: none;}
+.layout-showcase .sprocket-features-pagination li span {display: none;font-size: 0.85em;line-height: 1em;}
+
+/* Features - Layout Showcase - Transitions */
+.layout-showcase .sprocket-features-pagination li, .layout-showcase .sprocket-features-arrows .arrow {-webkit-transition: background-color 0.1s ease-out;-moz-transition: background-color 0.1s ease-out;-o-transition: background-color 0.1s ease-out;-ms-transition: background-color 0.1s ease-out;transition: background-color 0.1s ease-out;}
+
+/* Features - Custom Syling */
+#rt-showcase .arrows-active .sprocket-features-list {margin: 0 15px -25px;}
+#rt-showcase .layout-showcase .sprocket-features-arrows .arrow {top: 45%;}
+#rt-showcase .sprocket-features-img-container {position: relative;z-index: 2;}
+#rt-showcase .sprocket-features-content {z-index: 1;}
+#rt-showcase .sprocket-features-container .readon {z-index: 3;bottom: 20px;margin-left: -12%;}
+#rt-showcase .layout-showcase .sprocket-features-arrows .prev {left: -50px;}
+#rt-showcase  .layout-showcase .sprocket-features-arrows .next {right: -50px;}

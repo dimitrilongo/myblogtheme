@@ -1,0 +1,264 @@
+# Translation of the WordPress plugin RokAjaxSearch by RocketTheme.
+# Copyright (C) 2010 RocketTheme
+# This file is distributed under the same license as the RokAjaxSearch package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: RokAjaxSearch\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/rokajaxsearch\n"
+"POT-Creation-Date: 2010-07-26 14:35+0200\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: rokajaxsearch.php:73 rokajaxsearch.php:360
+msgid "Search"
+msgstr ""
+
+#: rokajaxsearch.php:82
+msgid "Local"
+msgstr ""
+
+#: rokajaxsearch.php:87
+msgid "Web"
+msgstr ""
+
+#: rokajaxsearch.php:93
+msgid "Blogs"
+msgstr ""
+
+#: rokajaxsearch.php:99
+msgid "Images"
+msgstr ""
+
+#: rokajaxsearch.php:105
+msgid "Videos"
+msgstr ""
+
+#: rokajaxsearch.php:134
+msgid "Title :"
+msgstr ""
+
+#: rokajaxsearch.php:236
+msgid "Category:"
+msgstr ""
+
+#: rokajaxsearch.php:352
+msgid "Results"
+msgstr ""
+
+#: rokajaxsearch.php:362
+msgid "No Results"
+msgstr ""
+
+#: rokajaxsearch.php:363
+msgid "Advanced Search"
+msgstr ""
+
+#: rokajaxsearch.php:364
+msgid "Page"
+msgstr ""
+
+#: rokajaxsearch.php:365
+msgid "Page of"
+msgstr ""
+
+#: rokajaxsearch.php:375
+msgid "View All"
+msgstr ""
+
+#: rokajaxsearch.php:376
+msgid "Estimated"
+msgstr ""
+
+#: rokajaxsearch.php:423 rokajaxsearch.php:438
+msgid "Settings"
+msgstr ""
+
+#: rokajaxsearch.php:467
+msgid "RokAjaxSearch settings saved."
+msgstr ""
+
+#: rokajaxsearch.php:483 rokajaxsearch.php:491
+msgid "Save Changes"
+msgstr ""
+
+#: rokajaxsearch.php:498
+msgid "Preset Themes"
+msgstr ""
+
+#: rokajaxsearch.php:501
+msgid "Blue"
+msgstr ""
+
+#: rokajaxsearch.php:502
+msgid "Light"
+msgstr ""
+
+#: rokajaxsearch.php:503
+msgid "Dark"
+msgstr ""
+
+#: rokajaxsearch.php:509
+msgid "Load Custom CSS"
+msgstr ""
+
+#: rokajaxsearch.php:513 rokajaxsearch.php:531 rokajaxsearch.php:541
+#: rokajaxsearch.php:609 rokajaxsearch.php:620 rokajaxsearch.php:631
+#: rokajaxsearch.php:642 rokajaxsearch.php:678 rokajaxsearch.php:689
+#: rokajaxsearch.php:700 rokajaxsearch.php:711
+msgid "Yes"
+msgstr ""
+
+#: rokajaxsearch.php:515 rokajaxsearch.php:533 rokajaxsearch.php:543
+#: rokajaxsearch.php:611 rokajaxsearch.php:622 rokajaxsearch.php:633
+#: rokajaxsearch.php:644 rokajaxsearch.php:680 rokajaxsearch.php:691
+#: rokajaxsearch.php:702 rokajaxsearch.php:713
+msgid "No"
+msgstr ""
+
+#: rokajaxsearch.php:520
+msgid "Google API"
+msgstr ""
+
+#: rokajaxsearch.php:528
+msgid "Show Description"
+msgstr ""
+
+#: rokajaxsearch.php:538
+msgid "Show Read More"
+msgstr ""
+
+#: rokajaxsearch.php:548
+msgid "Read More Label"
+msgstr ""
+
+#: rokajaxsearch.php:556
+msgid "Hide Divs"
+msgstr ""
+
+#: rokajaxsearch.php:564
+msgid "Display Content"
+msgstr ""
+
+#: rokajaxsearch.php:567
+msgid "Content"
+msgstr ""
+
+#: rokajaxsearch.php:568
+msgid "Excerpt"
+msgstr ""
+
+#: rokajaxsearch.php:574
+msgid "Order"
+msgstr ""
+
+#: rokajaxsearch.php:577
+msgid "Author"
+msgstr ""
+
+#: rokajaxsearch.php:578
+msgid "Date"
+msgstr ""
+
+#: rokajaxsearch.php:579
+msgid "Title"
+msgstr ""
+
+#: rokajaxsearch.php:580
+msgid "Modified"
+msgstr ""
+
+#: rokajaxsearch.php:581
+msgid "Menu Order"
+msgstr ""
+
+#: rokajaxsearch.php:582
+msgid "Parent"
+msgstr ""
+
+#: rokajaxsearch.php:583
+msgid "ID"
+msgstr ""
+
+#: rokajaxsearch.php:589
+msgid "Items Per Page"
+msgstr ""
+
+#: rokajaxsearch.php:597
+msgid "Limit Items"
+msgstr ""
+
+#: rokajaxsearch.php:605
+msgid "Google Web Search"
+msgstr ""
+
+#: rokajaxsearch.php:616
+msgid "Google Blog Search"
+msgstr ""
+
+#: rokajaxsearch.php:627
+msgid "Google Image Search"
+msgstr ""
+
+#: rokajaxsearch.php:638
+msgid "Google Video Search"
+msgstr ""
+
+#: rokajaxsearch.php:649
+msgid "Image Size to Search"
+msgstr ""
+
+#: rokajaxsearch.php:653
+msgid "Small"
+msgstr ""
+
+#: rokajaxsearch.php:654
+msgid "Medium"
+msgstr ""
+
+#: rokajaxsearch.php:655
+msgid "Large"
+msgstr ""
+
+#: rokajaxsearch.php:656
+msgid "Extra Large"
+msgstr ""
+
+#: rokajaxsearch.php:662
+msgid "Safe Search"
+msgstr ""
+
+#: rokajaxsearch.php:666
+msgid "Strict"
+msgstr ""
+
+#: rokajaxsearch.php:667
+msgid "Moderate"
+msgstr ""
+
+#: rokajaxsearch.php:668
+msgid "Off"
+msgstr ""
+
+#: rokajaxsearch.php:674
+msgid "Show Pagination"
+msgstr ""
+
+#: rokajaxsearch.php:685
+msgid "Show Category"
+msgstr ""
+
+#: rokajaxsearch.php:696
+msgid "Show Estimated"
+msgstr ""
+
+#: rokajaxsearch.php:707
+msgid "Include Link"
+msgstr ""

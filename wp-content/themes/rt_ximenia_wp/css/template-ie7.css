@@ -1,0 +1,116 @@
+/**
+ * @version   1.0 February 16, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2013 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Structure */
+#rt-debug, #rt-feature, #rt-utility, #rt-copyright, #rt-header, #rt-showcase, #rt-maintop, #rt-mainbottom, #rt-bottom, ul.menutop, #rt-navigation, #rt-logo, #rt-bottom, #rt-footer, #form-login, .rt-article-inner, #developed-by, #gantry-totop, .controls, #rt-top .rt-container, .controls, .controls .up, .controls .down, .rt-module-inner, .rt-pollbuttons .readon input, #rt-main, #rt-top-surround, #rt-content-top, #rt-content-bottom, h3, .rt-container-bg, .rt-menubar, #rt-top .rt-container, #rt-top, .rt-articleinfo, .rt-articleinfo-text, .rt-articleinfo-text2, .rt-date-posted, .rt-date-modified, .rt-author, #rt-main-container, .rt-article-bg, .rt-block, #rt-utility, .rt-container, .component-content, .main-surround, .rt-footer-inner, .rt-footer-surround {zoom: 1;}
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {zoom: 1;}
+#rt-page-surround, .rt-container {position: relative;}
+.mediumheader .custom-header, .largeheader .custom-header {min-height: auto;}
+#rt-showcase .rt-grid-12 {position: static !important;}
+#rt-feature .rt-grid-12 {position: static !important;}
+.totop-arrow {margin-bottom: 4px !important;}
+.fronttabs .cornertab {margin-bottom: -15px !important;zoom: 1;display: inline-block;}
+.rt-image img {margin-bottom: -3px;}
+.title1 .module-surround:after,.title1 .module-surround:before,.title1 .module-surround, #rt-showcase .module-surround {zoom:1;}
+
+/* WordPress Core */
+.button, body .btn-primary {border: none;}
+.component-content .actions li a {zoom: 1;width: 17px;}
+.component-content .actions {zoom: 1;}
+.article-info {zoom: 1;position: static !important;clear: both;display: block;}
+ul.actions {position: relative;}
+ul.actions img {zoom: 1;display: block;position: absolute;bottom: -35px;z-index: 9;}
+.article-info {position: relative;z-index: 1;}
+.horizmenu ul.menu li a, .horizmenu ul.menu li .item, .horizmenu ul.menu li .separator, .horizmenu ul.menu li {position: relative;zoom: 1;display: inline !important;}
+.horizmenu .module-content ul.menu .menu-arrow {position: absolute !important; right: -15px;}
+* + html .breadcrumbs {display: inline;}
+.roksocialbuttons {position: absolute;}
+#login-form {zoom: 1;position: relative;}
+
+/* Navigation */
+.module-content .menu, .module-content .menu li, .module-content .menu li a {zoom: 1;position: relative;}
+
+/* Menus */
+.menutop li.root:first-child > .item span, .menutop li:first-child > .item span {display: block !important;}
+.menutop li.root:first-child > .item, .menutop li:first-child > .item {padding: 0 !important;}
+.rt-menubar .menutop li > .item, .rt-menubar .menutop li.f-mainparent-itemfocus > .item {zoom: 1;border: 0 !important;}
+.rt-menubar .menutop li:hover > .item, .rt-menubar .menutop li.f-mainparent-itemfocus > .item {z-index: 9;position: static !important;zoom: 1;border: 0 !important;}
+
+
+/* Sprocket Stuff */
+.fp-rsfeatures .module-surround {padding-bottom: 0;margin-bottom: -26px !important;zoom: 1;}
+.sprocket-features .sprocket-features-content {zoom: 1;position: relative;width: auto;}
+.layout-showcase .sprocket-features-title {width: 100% !important;}
+.layout-showcase {height: 360px;}
+.sprocket-features .sprocket-feature-list, .layout-showcase .sprocket-features-desc-surround, .layout-showcase .sprocket-features-desc-top, .layout-showcase .sprocket-features-desc-bottom, .layout-showcase .sprocket-features-desc-surround2, .layout-showcase .sprocket-features-desc-surround3 {zoom: 1;}
+.sprocket-mosaic .sprocket-mosaic-order li, .sprocket-mosaic-filter li {width: auto;position: relative;zoom: 1;display: inline !important;margin-right: 5px !important;}
+.sprocket-mosaic-container li {display: inline !important;}
+.sprocket-mosaic-container li, .sprocket-mosaic .sprocket-mosaic-container, .sprocket-mosaic, .sprocket-mosaic-item .sprocket-mosaic-image {zoom: 1;}
+.sprocket-mosaic-item .sprocket-mosaic-image {position: relative !important;zoom: 1;}
+.sprocket-mosaic-item, .sprocket-mosaic-container span {zoom: 1;}
+.sprocket-mosaic-item .sprocket-readon-container {right: 68% !important;}
+.sprocket-tabs-panels > .sprocket-tabs-panel {zoom: 1;display: none;}
+.sprocket-tabs-panels > .sprocket-tabs-panel.active {display: block;}
+.sprocket-tabs-panels > .sprocket-tabs-panel .rt-image{margin-top: 15px;}
+.sprocket-tabs-panel .largemarginbottom {margin-top: 15px;}
+.sprocket-tabs-panel .largemargintop {margin-top: 0 !important;}
+.sprocket-tabs-nav > li .sprocket-tabs-inner, .sprocket-tabs-nav > li .sprocket-tabs-text {zoom: 1;}
+.sprocket-tabs-nav li .sprocket-tabs-inner {white-space: nowrap;}
+.sprocket-tabs-nav, .sprocket-tabs-nav li {zoom: 1;}
+.rg-ss-thumb img, .rg-ss-thumb {display: block;zoom: 1;margin-bottom: -3px !important;}
+* + html .sprocket-lists-pagination li {display:inline;margin-left: 5px;}
+* + html .component-content .article-info dd {display: inline;}
+* + html .readmore {display: inline;}
+* + html .component-content .actions li {display: inline;zoom: 1;}
+.component-content .actions li a {zoom: 1;}
+.layout-showcase .sprocket-features-arrows {left: 369px !important;}
+.sprocket-lists .sprocket-lists-title, .sprocket-lists li, .sprocket-lists .sprocket-lists-container {zoom: 1;}
+.fp-rsfeatures {position: relative;}
+.sprocket-features-list li, .sprocket-features-pagination {zoom: 1;}
+.sprocket-tabs-nav li.active .sprocket-tabs-arrow {zoom: 1;margin-top: 13px !important;}
+.layout-showcase .readon {zoom: 1;top: 220px;}
+.sprocket-headlines {height: 55px !important;}
+.sprocket-headlines-list {zoom: 1;}
+.sprocket-headlines-item {display: none !important;zoom: 1;}
+.sprocket-headlines-item.active {display: block !important;zoom: 1;position:absolute !important;top: 13px;}
+.sprocket-headlines-navigation {float: right;zoom: 1;}
+.sprocket-headlines-navigation .arrow {display: inline !important;position: relative;zoom: 1;}
+.sprocket-headlines-badge {margin-top: 13px;}
+
+/* RokGallery */
+.rg-grid .rg-grid-thumb {display: inline !important;}
+.rg-sc-img-padding {zoom: 1;}
+.rg-detail-file-main {width: 70%;}
+body .rg-ss-caption .readon {line-height: inherit !important;}
+.rokgallery-wrapper .rg-gm-slice:hover {border: none;}
+.cols4 .rg-gm-slice-list li {width: 24% !important;}
+.rg-gm-slice {zoom: 1;width: 102%;padding-bottom: 2px !important;}
+
+/* K2 */
+div.k2ItemsBlock ul li div.moduleItemAuthor, div.catItemAuthor,#k2Container div.subCategory a.subCategoryImage img,#k2Container div.subCategory a.subCategoryImage:hover {zoom: 1;}
+.k2CategoriesListBlock ul {margin-left: 8px !important;}
+.k2Pagination .tab,.k2Pagination .page-block {position: relative;display: inline;margin: 0 10px;zoom: 1;}
+body #k2Container .catItemCommentsLink {margin-left: 10px;float: left;}
+body #itemListLeading {position: relative;zoom: 1;}
+body .itemContainer {margin-right: -1px !important;padding: 0 !important;zoom: 1;}
+body .k2TagCloudBlock a,body .k2TagCloudBlock a:hover {display: inline;white-space: nowrap;}
+#k2Container .catItemReadMore, #k2Container .moduleItemReadMore, #k2Container .userItemReadMore, #k2Container .tagItemReadMore,#k2Container .genericItemReadMore, #k2Container .latestItemReadMore, span.catItemAddLink, span.userItemAddLink {display: inline !important;zoom: 1;border: none !important;}
+#k2Container .k2ReadMore, #k2Container .button, .k2UserBlock .button, span.catItemAddLink a, span.userItemAddLink a {background-color: transparent !important;float: left !important;border: none !important;zoom:1;}
+#k2Container .k2ReadMore:hover, #k2Container .button:hover, .k2UserBlock .button:hover, span.catItemAddLink a:hover, span.userItemAddLink a:hover {background-position: 0 -205px;}
+#k2Container {position: static;}
+#k2Container .subCategoryContainer {zoom: 1;margin-right: -5px;}
+div.k2LatestCommentsBlock ul li span.lcComment {zoom: 1;}
+
+/* RokAjaxSearch */
+.rokajaxsearch {zoom: 1;position: relative;}
+#roksearch_results .container-wrapper {position: relative;zoom: 1;}
+#roksearch_results .container-scroller {position: relative;zoom: 1;}
+#roksearch_results span.small span {display: inline-block;margin-top: 0;margin-bottom: 0;font-size: 10px;}
+.search_result .display {clear: both;}
+.rokajaxsearch {zoom: 1;position: relative;display: inline-block;}
+#roksearch_search_str {zoom: 1;}
+#rokajaxsearch .inputbox {zoom:1;}

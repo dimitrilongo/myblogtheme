@@ -1,0 +1,359 @@
+# Copyright (C) 2010 RokTwittie
+# This file is distributed under the same license as the RokTwittie package.
+msgid ""
+msgstr ""
+"Project-Id-Version: RokTwittie 1.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/roktwittie\n"
+"POT-Creation-Date: 2012-05-22 20:44:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: api.php:37
+msgid "Consumer keys are not configured."
+msgstr ""
+
+#: api.php:96
+msgid "RokTwittie has been successfully authenticated with Twitter."
+msgstr ""
+
+#: api.php:103
+msgid "Restricted access"
+msgstr ""
+
+#: api.php:108
+msgid "Could not connect to Twitter. Refresh the page or try again later."
+msgstr ""
+
+#: roktwittie.php:201
+msgid "view tweet on twitter"
+msgstr ""
+
+#: roktwittie.php:202
+msgid "From"
+msgstr ""
+
+#: roktwittie.php:203
+msgid "less than a minute ago"
+msgstr ""
+
+#: roktwittie.php:204
+msgid "about"
+msgstr ""
+
+#: roktwittie.php:205
+msgid "about a minute ago"
+msgstr ""
+
+#: roktwittie.php:206
+msgid "minutes ago"
+msgstr ""
+
+#: roktwittie.php:207
+msgid "about a hour ago"
+msgstr ""
+
+#: roktwittie.php:208
+msgid "hours ago"
+msgstr ""
+
+#: roktwittie.php:209
+msgid "1 day ago"
+msgstr ""
+
+#: roktwittie.php:210
+msgid "days Ago"
+msgstr ""
+
+#: roktwittie.php:323
+msgid "RokTwittie settings saved."
+msgstr ""
+
+#: roktwittie.php:330
+msgid "RokTwittie Settings"
+msgstr ""
+
+#: roktwittie.php:339
+msgid "Option Name"
+msgstr ""
+
+#: roktwittie.php:342
+msgid "Value"
+msgstr ""
+
+#: roktwittie.php:352
+msgid "Save Changes"
+msgstr ""
+
+#: roktwittie.php:359
+msgid "Status"
+msgstr ""
+
+#: roktwittie.php:367
+msgid "Use OAuth"
+msgstr ""
+
+#: roktwittie.php:370
+msgid ""
+"Enabling this requires registering your website as Twitter application, more "
+"about it"
+msgstr ""
+
+#: roktwittie.php:370
+msgid "here"
+msgstr ""
+
+#: roktwittie.php:372 roktwittie.php:419 roktwittie.php:430 roktwittie.php:481
+#: roktwittie.php:503 roktwittie.php:514 roktwittie.php:525 roktwittie.php:536
+#: roktwittie.php:547 roktwittie.php:558 roktwittie.php:569 roktwittie.php:580
+#: roktwittie.php:591 roktwittie.php:602 roktwittie.php:613 roktwittie.php:624
+#: roktwittie.php:643 roktwittie.php:654 roktwittie.php:665 roktwittie.php:692
+#: roktwittie.php:703 roktwittie.php:714 roktwittie.php:725 roktwittie.php:736
+#: roktwittie.php:755 roktwittie.php:782 roktwittie.php:793 roktwittie.php:804
+msgid "Yes"
+msgstr ""
+
+#: roktwittie.php:374 roktwittie.php:421 roktwittie.php:432 roktwittie.php:483
+#: roktwittie.php:505 roktwittie.php:516 roktwittie.php:527 roktwittie.php:538
+#: roktwittie.php:549 roktwittie.php:560 roktwittie.php:571 roktwittie.php:582
+#: roktwittie.php:593 roktwittie.php:604 roktwittie.php:615 roktwittie.php:626
+#: roktwittie.php:645 roktwittie.php:656 roktwittie.php:667 roktwittie.php:694
+#: roktwittie.php:705 roktwittie.php:716 roktwittie.php:727 roktwittie.php:738
+#: roktwittie.php:757 roktwittie.php:784 roktwittie.php:795 roktwittie.php:806
+msgid "No"
+msgstr ""
+
+#: roktwittie.php:379
+msgid "Twitter APP consumer key"
+msgstr ""
+
+#: roktwittie.php:387
+msgid "Twitter APP consumer secret"
+msgstr ""
+
+#: roktwittie.php:395
+msgid "Authenticate"
+msgstr ""
+
+#: roktwittie.php:405
+msgid "Save the settings first"
+msgstr ""
+
+#: roktwittie.php:415
+msgid "Load built-in StyleSheet"
+msgstr ""
+
+#: roktwittie.php:426
+msgid "Output Caching"
+msgstr ""
+
+#: roktwittie.php:437
+msgid "Timeout on connect (secs)"
+msgstr ""
+
+#: roktwittie.php:445
+msgid "Timeout on response (secs)"
+msgstr ""
+
+#: roktwittie.php:453
+msgid "Cache time (mins)"
+msgstr ""
+
+#: roktwittie.php:461
+msgid "Usernames, separated by comma"
+msgstr ""
+
+#: roktwittie.php:469
+msgid "Inactive users opacity"
+msgstr ""
+
+#: roktwittie.php:477
+msgid "Show default avatars"
+msgstr ""
+
+#: roktwittie.php:488
+msgid "Header style"
+msgstr ""
+
+#: roktwittie.php:492
+msgid "Light"
+msgstr ""
+
+#: roktwittie.php:494
+msgid "Dark"
+msgstr ""
+
+#: roktwittie.php:499
+msgid "Include ReTweets"
+msgstr ""
+
+#: roktwittie.php:510
+msgid "Enable usernames statuses"
+msgstr ""
+
+#: roktwittie.php:521 roktwittie.php:699 roktwittie.php:778
+msgid "Open links in new window"
+msgstr ""
+
+#: roktwittie.php:532
+msgid "Show the RSS Feed link"
+msgstr ""
+
+#: roktwittie.php:543
+msgid "Show follow updates link"
+msgstr ""
+
+#: roktwittie.php:554
+msgid "Show the bio description"
+msgstr ""
+
+#: roktwittie.php:565
+msgid "Show the URL"
+msgstr ""
+
+#: roktwittie.php:576
+msgid "Show the location"
+msgstr ""
+
+#: roktwittie.php:587
+msgid "Show user updates count"
+msgstr ""
+
+#: roktwittie.php:598
+msgid "Show user followers count"
+msgstr ""
+
+#: roktwittie.php:609
+msgid "Show user following count"
+msgstr ""
+
+#: roktwittie.php:620
+msgid "Show following icons"
+msgstr ""
+
+#: roktwittie.php:631
+msgid "Icons count to show"
+msgstr ""
+
+#: roktwittie.php:639
+msgid "Show View all after icons"
+msgstr ""
+
+#: roktwittie.php:650
+msgid "Enable usernames tweets"
+msgstr ""
+
+#: roktwittie.php:661
+msgid "Show usernames avatars"
+msgstr ""
+
+#: roktwittie.php:672 roktwittie.php:762
+msgid "Size in pixel of the avatar"
+msgstr ""
+
+#: roktwittie.php:680 roktwittie.php:770
+msgid "Tweets count"
+msgstr ""
+
+#: roktwittie.php:688
+msgid "Merge Tweets"
+msgstr ""
+
+#: roktwittie.php:710 roktwittie.php:789
+msgid "Show tweets sources"
+msgstr ""
+
+#: roktwittie.php:721 roktwittie.php:800
+msgid "Show usernames as prepended text"
+msgstr ""
+
+#: roktwittie.php:732
+msgid "Enable search tweets"
+msgstr ""
+
+#: roktwittie.php:743
+msgid "Search string"
+msgstr ""
+
+#: roktwittie.php:751
+msgid "Show search avatars"
+msgstr ""
+
+#: roktwittie.php:844
+msgid "CURL extension is not enabled, contact your administrator."
+msgstr ""
+
+#: roktwittie.php:848
+msgid "Using anonymous mode."
+msgstr ""
+
+#: roktwittie.php:852
+msgid "Consumer keys are not setup! Using anonymous mode."
+msgstr ""
+
+#: roktwittie.php:935
+msgid "Title:"
+msgstr ""
+
+#: tmpl/default.php:61
+msgid "feed:"
+msgstr ""
+
+#: tmpl/default.php:61
+msgid "RSS Feed"
+msgstr ""
+
+#: tmpl/default.php:64
+msgid "follow:"
+msgstr ""
+
+#: tmpl/default.php:64
+msgid "Follow updates"
+msgstr ""
+
+#: tmpl/default.php:70
+msgid "bio:"
+msgstr ""
+
+#: tmpl/default.php:74
+msgid "web:"
+msgstr ""
+
+#: tmpl/default.php:80
+msgid "location:"
+msgstr ""
+
+#: tmpl/default.php:84
+msgid "updates:"
+msgstr ""
+
+#: tmpl/default.php:88
+msgid "followers:"
+msgstr ""
+
+#: tmpl/default.php:92
+msgid "following:"
+msgstr ""
+
+#: tmpl/default.php:99
+msgid "Following:"
+msgstr ""
+
+#: tmpl/default.php:100 tmpl/default.php:136
+msgid "Last _COUNT_ tweets from _USER_:"
+msgstr ""
+
+#: tmpl/default.php:120
+msgid "View All..."
+msgstr ""
+
+#: tmpl/default.php:131
+msgid "Loading..."
+msgstr ""
+
+#: tmpl/default.php:143
+msgid "People talking about _SEARCH_"
+msgstr ""

@@ -1,0 +1,12 @@
+/**
+ * @version   1.5 November 13, 2012
+ * @author    RocketTheme, LLC http://www.rockettheme.com
+ * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Here go all IE7 CSS Tweaks/Hacks */
+
+#roktwittie .user .content .subscribe {margin-top: 12px;}
+#roktwittie .roktwittie-text {margin-bottom: 0;padding-bottom: 5px;}
+#roktwittie div.roktwittie-text {margin-bottom: 0px;}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+	
+	<tip id="contact-email" label="Contact Email"><![CDATA[Here you can change the email address to which will be sent emails using builtin Contact Form page template. In case of leaving this field empty, emails will be sent to the admins email address.]]></tip>
+
+</gantrytips>

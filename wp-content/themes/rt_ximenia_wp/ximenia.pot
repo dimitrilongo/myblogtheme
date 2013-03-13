@@ -1,0 +1,417 @@
+# Copyright (C) 2013 RocketTheme, LLC
+# This file is distributed under the same license as the Ximenia package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ximenia 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/ximenia\n"
+"POT-Creation-Date: 2013-02-16 13:08:25+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:44
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:46
+msgid "You may not be able to visit this page because of:"
+msgstr ""
+
+#: 404.php:48
+msgid "an out-of-date bookmark/favourite"
+msgstr ""
+
+#: 404.php:49
+msgid "a search engine that has an out-of-date listing for this site"
+msgstr ""
+
+#: 404.php:50
+msgid "a mistyped address"
+msgstr ""
+
+#: 404.php:51
+msgid "you have no access to this page"
+msgstr ""
+
+#: 404.php:52
+msgid "The requested resource was not found."
+msgstr ""
+
+#: 404.php:53
+msgid "An error has occurred while processing your request."
+msgstr ""
+
+#: 404.php:56 widgets/breadcrumbs.php:36
+msgid "Home"
+msgstr ""
+
+#: functions.php:34
+msgid "The active theme requires the Gantry Framework Plugin to be installed and active"
+msgstr ""
+
+#: gizmos/helper.php:89
+msgid "Background Image"
+msgstr ""
+
+#: gizmos/styledeclaration.php:69 gizmos/styledeclaration.php:80
+msgid "Unable to write \"static-styles.css\" in the \"/css\" folder."
+msgstr ""
+
+#: html/404.php:12
+msgid "404 Page Not Found"
+msgstr ""
+
+#: html/archive.php:93
+msgid "Category:"
+msgstr ""
+
+#: html/archive.php:95
+msgid "Posts Tagged"
+msgstr ""
+
+#: html/archive.php:97 html/archive.php:99 html/archive.php:101
+msgid "Archive for"
+msgstr ""
+
+#: html/archive.php:103
+msgid "Author Archive"
+msgstr ""
+
+#: html/archive.php:105
+msgid "Blog Archives"
+msgstr ""
+
+#: html/archive.php:200 html/layouts/body_contactform.php:192 html/page.php:89
+#: html/post-blog.php:90 html/search.php:120 html/single.php:96
+msgid "Published on"
+msgstr ""
+
+#: html/archive.php:210 html/layouts/body_contactform.php:202 html/page.php:99
+#: html/post-blog.php:100 html/search.php:130 html/single.php:106
+msgid "Last Updated on"
+msgstr ""
+
+#: html/archive.php:220 html/page.php:109 html/post-blog.php:110
+#: html/search.php:140 html/single.php:116
+msgid "Written by"
+msgstr ""
+
+#: html/archive.php:234 html/archive.php:240
+#: html/layouts/body_contactform.php:226 html/layouts/body_contactform.php:232
+#: html/layouts/commentstempl_standard.php:57 html/page.php:123
+#: html/page.php:129 html/post-blog.php:124 html/post-blog.php:130
+#: html/search.php:154 html/search.php:160 html/single.php:130
+#: html/single.php:136
+msgid "0 Comments"
+msgstr ""
+
+#: html/archive.php:234 html/archive.php:240
+#: html/layouts/body_contactform.php:226 html/layouts/body_contactform.php:232
+#: html/layouts/commentstempl_standard.php:57 html/page.php:123
+#: html/page.php:129 html/post-blog.php:124 html/post-blog.php:130
+#: html/search.php:154 html/search.php:160 html/single.php:130
+#: html/single.php:136
+msgid "1 Comment"
+msgstr ""
+
+#: html/archive.php:234 html/archive.php:240
+#: html/layouts/body_contactform.php:226 html/layouts/body_contactform.php:232
+#: html/layouts/commentstempl_standard.php:57 html/page.php:123
+#: html/page.php:129 html/post-blog.php:124 html/post-blog.php:130
+#: html/search.php:154 html/search.php:160 html/single.php:130
+#: html/single.php:136
+msgid "% Comments"
+msgstr ""
+
+#: html/archive.php:314 html/archive.php:352 html/home.php:132
+#: html/home.php:170 html/index.php:132 html/index.php:170 html/search.php:232
+#: html/search.php:270
+msgid "Next"
+msgstr ""
+
+#: html/archive.php:315 html/archive.php:349 html/home.php:133
+#: html/home.php:167 html/index.php:133 html/index.php:167 html/search.php:233
+#: html/search.php:267
+msgid "Previous"
+msgstr ""
+
+#: html/archive.php:366
+msgid "Sorry, but there aren't any posts matching your query."
+msgstr ""
+
+#: html/gantrymenu/themes/catalog.php:10
+msgid "Ximenia Fusion"
+msgstr ""
+
+#: html/gantrymenu/themes/catalog.php:13
+msgid "Ximenia SplitMenu"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:28
+msgid "Subtext"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:37
+msgid "Icon"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:64
+msgid "Number of Columns in Submenu"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:77
+msgid "Item Distribution"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:79
+msgid "Evenly"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:81
+msgid "In Order"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:83
+msgid "Manually"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:88
+msgid "Manual Item Distribution"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:97
+msgid "Group Child Items"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:108
+msgid "Drop-Down Width (px)"
+msgstr ""
+
+#: html/gantrymenu/themes/itemfields.php:117
+msgid "Column Widths (px)"
+msgstr ""
+
+#: html/layouts/body_contactform.php:258
+msgid "Thanks, your email was sent successfully."
+msgstr ""
+
+#: html/layouts/body_contactform.php:278
+msgid "Sorry, an error occurred."
+msgstr ""
+
+#: html/layouts/body_contactform.php:298
+msgid "Name"
+msgstr ""
+
+#: html/layouts/body_contactform.php:310
+msgid "Email"
+msgstr ""
+
+#: html/layouts/body_contactform.php:322
+msgid "Message"
+msgstr ""
+
+#: html/layouts/body_contactform.php:328
+msgid "Send me a copy of this email."
+msgstr ""
+
+#: html/layouts/body_contactform.php:330
+msgid "Send Email"
+msgstr ""
+
+#: html/layouts/body_contactform.php:342 html/page.php:147 html/single.php:154
+msgid "Pages:"
+msgstr ""
+
+#: html/layouts/body_contactform.php:344 html/page.php:149 html/single.php:181
+msgid "Edit this entry."
+msgstr ""
+
+#: html/layouts/body_contactform.php:363 html/page.php:168
+msgid "Sorry, no pages matched your criteria."
+msgstr ""
+
+#: html/layouts/comment_standard.php:86
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:39
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:61
+msgid "Reply"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:67
+msgid "Older Comments"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:68
+msgid "Newer Comments"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:87
+msgid "Comments are closed."
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:101
+msgid "Leave a Reply"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:101
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:112
+msgid "You must be"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:112
+msgid "logged in"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:112
+msgid "to post a comment."
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:120
+#: html/layouts/commentstempl_standard.php:146
+#: html/layouts/commentstempl_standard.php:147
+msgid "Website"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:125
+msgid "Logged in as"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:126
+msgid "Log out of this account"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:126 widgets/loginform.php:87
+msgid "Log out"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:132
+#: html/layouts/commentstempl_standard.php:133
+#: html/layouts/commentstempl_standard.php:134
+msgid "Name (Required)"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:139
+#: html/layouts/commentstempl_standard.php:140
+#: html/layouts/commentstempl_standard.php:141
+msgid "E-mail (Required)"
+msgstr ""
+
+#: html/layouts/commentstempl_standard.php:160
+msgid "Send"
+msgstr ""
+
+#: html/search.php:31
+msgid "Search Results for"
+msgstr ""
+
+#: html/search.php:284
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: html/single.php:171
+msgid "Tags:"
+msgstr ""
+
+#: html/single.php:188
+msgid "This entry was posted"
+msgstr ""
+
+#: html/single.php:193
+msgid "on"
+msgstr ""
+
+#: html/single.php:193
+msgid "at"
+msgstr ""
+
+#: html/single.php:194
+msgid "and is filed under"
+msgstr ""
+
+#: html/single.php:195
+msgid "You can follow any responses to this entry through the"
+msgstr ""
+
+#: html/single.php:195
+msgid "feed"
+msgstr ""
+
+#: html/single.php:199
+msgid "You can"
+msgstr ""
+
+#: html/single.php:199
+msgid "leave a response"
+msgstr ""
+
+#: html/single.php:199
+msgid "or"
+msgstr ""
+
+#: html/single.php:199 html/single.php:203
+msgid "trackback"
+msgstr ""
+
+#: html/single.php:199 html/single.php:203
+msgid "from your own site."
+msgstr ""
+
+#: html/single.php:203
+msgid "Responses are currently closed, but you can"
+msgstr ""
+
+#: html/single.php:207
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr ""
+
+#: html/single.php:211
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: html/single.php:213
+msgid "Edit this entry"
+msgstr ""
+
+#: html/single.php:237
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: widgets/loginform.php:50
+msgid "User Name"
+msgstr ""
+
+#: widgets/loginform.php:54
+msgid "Password"
+msgstr ""
+
+#: widgets/loginform.php:58
+msgid "Remember Me"
+msgstr ""
+
+#: widgets/loginform.php:61
+msgid "Log in"
+msgstr ""
+
+#: widgets/loginform.php:65
+msgid "Forgot your password?"
+msgstr ""
+
+#: widgets/loginform.php:69
+msgid "Register"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Contact Form"
+msgstr ""

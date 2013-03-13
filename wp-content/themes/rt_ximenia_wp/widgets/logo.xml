@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="widget">
+        <field name="css" type="hidden" default="body #logo-inner"/>
+    </fieldset>
+</form>

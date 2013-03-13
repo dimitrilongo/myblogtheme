@@ -1,0 +1,74 @@
+/**
+ * @version   1.0 February 16, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2013 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Menu */
+body #rt-menu .rt-container {height:auto;overflow:hidden;background-color: transparent !important;}
+#rt-showcase .rt-container {background: !important;}
+.rt-menu-container {overflow:hidden;}
+#rt-menu-root {z-index:50;position:relative;}
+#rt-menu ul.menu ul {display: none;position:absolute;z-index:5;top: 0; left: 0;}
+#rt-menu , #rt-menu .rt-container {position:relative;z-index:10000;}
+body.rt-normal #rt-menu .rt-container, body.rt-flipped #rt-menu .rt-container {width: 320px;}
+body.rt-right #rt-menu .rt-container, body.rt-left #rt-menu .rt-container {width: 480px;}
+#rt-menu ul.menu {height:100%;}
+body #rt-menu {height: auto;background: none !important;background-color: transparent !important;}
+body #rt-menu ul.menu li a {font-size: 0.9em;line-height:2.2em !important;padding: 0 10px;}
+#rt-left-menu, #rt-right-menu {background-image: none;background-repeat: no-repeat; width: 26px; height: 27px;position: absolute;z-index:2;}
+#rt-left-menu {background-position: bottom left;left: 0;}
+#rt-right-menu {background-position: top left;right:0;}
+#rt-menu ul.menu li {list-style: none;float: left;padding: 0;}
+
+/* Reminder:  320 / 480 */
+body {word-wrap: break-word;}
+body .component-content .item {width: 100% !important;float: none !important;margin-bottom: 15px;}
+body .component-content .item h1, body .component-content .item h2 {font-size: 2em;}
+body .rt-block {padding: 10px 20px;margin-left: 5px !important;margin-right: 5px !important;}
+body h1 {border-bottom: 0;}
+a {-webkit-transition: color 0.2 ease-out;}
+body .rt-container {background: transparent;}
+body.rt-normal #form-login .inputbox, body.rt-flipped #form-login .inputbox {width: 100px !important;}
+#form-login fieldset p {margin:0;}
+body .rt-demo-grid-2, body .rt-demo-grid-3, body .rt-demo-grid-4, body .rt-demo-grid-5, body .rt-demo-grid-6, body .rt-demo-grid-7, body .rt-demo-grid-8, body .rt-demo-grid-9 {float: none;margin-left: 0;margin-right: 0;}
+body #rocket {margin: 0 auto;}
+body .rt-navigation-bar {background: transparent;}
+body .main-bg {background-position: 40% 0;background-size: 400px auto;}
+.rt-footer-inner {margin: 0 5px !important;}
+#rt-top {background: none !important;}
+.logo-type-ximenia #rt-logo {background-image: url(../images/logo/dark/logo.png) !important;}
+#rt-showcase .rt-block, #rt-showcase .module-surround, #rt-showcase .module-content {background: none !important;border: none !important;box-shadow: none !important;}
+#rt-maintop .module-content {padding: 10px 5px !important;}
+body #developed-by {text-align: center;}
+.login-fields #username, .login #username, .login-fields #password, .login #password, #contact-form dd input, #contact-form dd textarea, #modlgn-username, #modlgn-passwd, #jform_email, #member-registration dd input, #search-searchword, .finder .inputbox, .inputbox {box-shadow: none !important;background: none !important;}
+.rt-grid-12 {width: 100%;}
+
+/* WordPress */
+.component-content .edit img, .component-content .actions, .component-content .rokgallery-wrapper {display: none;}
+.rt-breadcrumb-surround {overflow: visible;}
+#rt-headerblock {z-index: 1;position: relative;}
+
+/* Tabs */
+.sprocket-tabs {padding: 0 10px !important;}
+.layout-top .sprocket-tabs-nav {padding: 5px 5px 0 5px !important;}
+body .sprocket-tabs-nav li, body .sprocket-tabs-nav li.active {margin-right: 1px;}
+body .sprocket-tabs-nav > li > .sprocket-tabs-inner {font-size: 0.8em;}
+body .sprocket-tabs-nav li .sprocket-tabs-inner {padding: 13px 8px;}
+.sprocket-tabs-nav > li.active > .sprocket-tabs-inner {padding: 18px 8px 14px !important;}
+
+/* K2 */
+form#comment-form textarea, form#comment-form input {width: 100%;}
+
+/* Demo */
+body .component-content {padding: 10px;}
+.component-content h1 {display: block;width: 100%;}
+.component-content .cols-2 .column-1, .component-content .cols-2 .column-2 {width: 45%;}
+body.menu-home .rt-floatright {margin-left: 0 !important;}
+body.menu-home .sprocket-tabs .rt-image img {width: 130px !important;height: 63px !important;}
+body.menu-home .rt-image img {width: 290px !important;}
+body.menu-home .roksocialbuttons {display: none;}
+.fronttabs .image-description, .fronttabs .cornertab, .fronttabs .corner-symbol {display: none !important;}
+
+

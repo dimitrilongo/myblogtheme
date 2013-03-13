@@ -1,0 +1,17 @@
+/**
+ * @version   1.0 February 16, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2013 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Transitions */
+a {-o-transition: color 0.1s ease-in;}
+.menutop a {-o-transition: none;}
+.horizmenu ul.menu li a, .horizmenu ul.menu li .item, .horizmenu ul.menu li .separator {-o-transition: background-color 0.1s ease-out;}
+.sprocket-tabs-nav li {-o-transition: background-color 0.1s ease-out, color 0.1s ease-out;}
+body .rt-floatleft {position: relative;}
+body .rt-floatright {position: relative;}
+
+/* Fix's */
+.layout-showcase.sprocket-features .sprocket-features-pagination {bottom: -10px;}

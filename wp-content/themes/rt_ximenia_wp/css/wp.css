@@ -1,0 +1,159 @@
+/**
+ * @version   1.0 February 16, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2013 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+ 
+/* General */
+
+body.rtl .item-page ol li, body.rtl #rt-main .component-content ol li {margin-right: 15px;}
+.alignleft {float: left;}
+.alignright {float: right;}
+body.rtl .alignleft {float: right;}
+body.rtl .alignright {float: left;}
+
+/* Pagination */
+
+.pagination {padding: 0 0 15px; margin-top: 5px 0 10px;}
+.item-page #comments .rt-pagination a {font-size: 100%; font-weight: normal;}
+
+/* Pagination - Full */
+
+.rt-pagination .full-nav .page-numbers, .rt-pagination .full-nav .older_posts, .rt-pagination .full-nav .newer_posts {padding: 3px; font-size: 110%;}
+.rt-pagination .full-nav .pages-nav {display: inline-block;}
+.rt-pagination .full-nav .newer_posts, body.rtl .rt-pagination .full-nav .older_posts {margin-right: 10px;}
+.rt-pagination .full-nav .older_posts, body.rtl .rt-pagination .full-nav .newer_posts {margin-left: 10px;}
+
+/* Calendar Widget */
+.widget_calendar table#wp-calendar {margin: 0 auto; width: 80%;}
+
+/* Page & Single */
+
+div.edit-entry {margin: 10px 0;}
+
+/* Single */
+
+.item-page .post-footer small {font-size: 90%; line-height: 130%;}
+.item-page .post-footer {margin: 10px 0 15px 0;}
+
+.item-page div.tags {overflow: hidden; display: block; margin: 10px 0;}
+.item-page div.tags a {display: inline-block; padding: 4px; -moz-transition: none;-o-transition: none;-webkit-transition: none;transition: none;}
+.item-page div.tags a:hover {color: #FFFFFF;}
+.item-page div.tags span {font-weight: bold;}
+.item-page div.tags .rt-block {margin: 20px 5px;}
+
+/* Tag Cloud Widget */
+
+.widget_tag_cloud .tagcloud a {-moz-transition: none;-o-transition: none;-webkit-transition: none;transition: none; display: inline-block; padding: 4px;}
+.widget_tag_cloud .tagcloud a:hover {color: #fff;}
+
+/* Recent Comments Widget */
+
+.widget_gantry_recentcomments ul.comments {list-style: none; margin: 0; padding: 0;}
+.widget_gantry_recentcomments ul.comments li {margin: 0 0 5px !important; padding: 5px 60px 5px 10px !important; position: relative;}
+.main-body-light .widget_gantry_recentcomments ul.comments li {background:url(../images/comments/light/speach-bubble.png) 100% 0 no-repeat;}
+.main-body-dark .widget_gantry_recentcomments ul.comments li {background:url(../images/comments/dark/speach-bubble.png) 100% 0 no-repeat;}
+.widget_gantry_recentcomments ul.comments li img {padding: 0; right: 0; top: 2px; position: absolute;}
+body.rtl .widget_gantry_recentcomments ul.comments {padding-right: 0;}
+
+/* Breadcrumbs Widget */
+
+.rt-breadcrumb-surround {padding-left: 0;}
+
+/* Login Form */
+
+.widget_gantry_loginform #form-login-remember .inputbox {border: none; font-size: normal; margin: 4px;}
+
+/* Search */
+
+.component-content .highlight {background: #FBDE21; color: #000000;}
+
+/* Comments General */
+
+#jc h3 {margin: 10px 0 15px; font-weight: normal; font-family: 'OxygenRegular', helvetica, arial, sans-serif; line-height: 1.2em;}
+#jc .rt-block {margin: 20px 5px;}
+#jc #comments {padding-bottom: 10px;}
+#jc .comments-list .rbox #respond {margin-top: 20px;}
+
+/* Comments Standard - General */
+
+#comments.comments-standard {margin: 0; padding: 0; width: 100%; text-align: left;}
+#comments.comments-standard .clear {clear: both; height: 1px; overflow: hidden}
+#comments.comments-standard .rbox .comment-box {margin: 0 0 0 70px; padding: 0;}
+
+/* Comments Standard - Avatar */
+
+#comments.comments-standard .comment-avatar {float: left; margin: 0 5px 0 0; padding: 0;}
+#comments.comments-standard .comment-avatar img.avatar {float: left;}
+
+/* Comments Standard - Comments List */
+
+#comments.comments-standard .rbox .comments-list {margin-left: 0;}
+#comments.comments-standard .rbox .comment-body {margin-top: 5px;}
+#comments.comments-standard .rbox .comment-author, #comments.comments-standard .rbox .author-homepage {font-weight: bold;}
+
+body.rtl #comments.comments-standard .rbox .comment-body {margin: 0 10px 0 0;}
+
+/* Comments Standard - Date */
+
+#comments.comments-standard .rbox .comment-date {font-size: 10px; margin: 0; padding: 0 0 0 5px;}
+#comments.comments-standard .rbox a[rel*=external] {padding: 0; margin: 0 2px 0 0;}
+
+/* Comments Standard - Blockquote and Code styling */
+
+#comments.comments-standard .quote, #comments.comments-standard blockquote, #comments.comments-standard .code, #comments.comments-standard code, #comments.comments-standard pre {margin: 0; display: block; background-image: none;}
+#comments.comments-standard blockquote, #comments.comments-standard .hidden, #comments.comments-standard code, #comments.comments-standard pre {text-align: left; padding: 8px; margin-bottom: 8px}
+#comments.comments-standard blockquote, #comments.comments-standard .hidden {font-size: 110%;}
+#comments.comments-standard code, #comments.comments-standard pre {overflow: hidden; white-space:normal; border: 1px solid; border-color: inherit; color: inherit;}
+#comments.comments-standard .code {background: none; border: none; padding:0}
+#comments.comments-standard .hidden {clear: both;display: block;margin: 5px 0}
+
+/* Comments Standard - Respond */
+
+#jc #respond p {margin-bottom: 10px;}
+
+/* Comments Standard - Threading */
+
+#comments.comments-standard .comments-list .depth-2 .rbox {margin-left: 5%;}
+#comments.comments-standard .comments-list .depth-3 .rbox {margin-left: 10%;}
+#comments.comments-standard .comments-list .depth-4 .rbox {margin-left: 15%;}
+#comments.comments-standard .comments-list .depth-5 .rbox {margin-left: 20%;}
+#comments.comments-standard .comments-list .depth-6 .rbox {margin-left: 25%;}
+#comments.comments-standard .comments-list .depth-7 .rbox {margin-left: 30%;}
+#comments.comments-standard .comments-list .depth-8 .rbox {margin-left: 35%;}
+#comments.comments-standard .comments-list .depth-9 .rbox {margin-left: 40%;}
+
+/* Comments Standard - RTL */
+
+body.rtl #comments.comments-standard {text-align: right;}
+body.rtl #comments.comments-standard .comment-box {text-align: right;}
+body.rtl #comments.comments-standard .comment-avatar {float: right; margin: 0 0 0 10px;}
+body.rtl #comments.comments-standard .rbox .comment-box {margin: 0 55px 0 0; padding: 0;}
+body.rtl #comments.comments-standard code, body.rtl #comments.comments-standard pre {text-align: right;}
+
+body.rtl #comments.comments-standard .comments-list .depth-2 .rbox {margin-right: 5%; margin-left: 0;}
+body.rtl #comments.comments-standard .comments-list .depth-3 .rbox {margin-right: 10%; margin-left: 0;}
+body.rtl #comments.comments-standard .comments-list .depth-4 .rbox {margin-right: 15%; margin-left: 0;}
+body.rtl #comments.comments-standard .comments-list .depth-5 .rbox {margin-right: 20%; margin-left: 0;}
+body.rtl #comments.comments-standard .comments-list .depth-6 .rbox {margin-right: 25%; margin-left: 0;}
+body.rtl #comments.comments-standard .comments-list .depth-7 .rbox {margin-right: 30%; margin-left: 0;}
+body.rtl #comments.comments-standard .comments-list .depth-8 .rbox {margin-right: 35%; margin-left: 0;}
+body.rtl #comments.comments-standard .comments-list .depth-9 .rbox {margin-right: 40%; margin-left: 0;}
+
+/* Write Comment */
+
+#comments-form, #comments-form-buttons {margin: 15px 0 0;}
+#comments-form textarea {font-family: inherit; height:120px; margin:0; padding:5px; width:97%; font-size: inherit;}
+#comments-form #author, #comments-form #email, #comments-form #url {padding: 7px 5px; width:97%;}
+
+body.rtl #jc #respond {text-align: right;}
+
+/* Contact Form Template */
+
+#rt-contact-form {margin-bottom: 20px;}
+#rt-contact-form #rt-contact-name, #rt-contact-form #rt-contact-email {padding: 7px 5px; width:40%; font-size: inherit;}
+#rt-contact-form #rt-contact-message {width: 80%; padding: 7px 5px; font-size: inherit; font-family: inherit;}
+#rt-contact-form .contact-label {display: block; margin-bottom: 10px;}
+#rt-contact-form span.required {font-weight: bold; color: #D0583F;}
+#rt-contact-form .rt-send-copy {margin-bottom: 10px; display: inline-block;}

@@ -1,0 +1,54 @@
+/**
+ * @version   1.0 February 16, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2013 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Core */
+body.rtl .item-page ul,body.rtl .item-page ol, body.rtl .module-content ul,body.rtl .module-content ol {padding-right: 15px;}
+
+/* Navigation */
+body.rtl .menutop li.root > .item img {margin: 0 -9px -1px 7px}
+body.rtl .menutop li.parent.root .item .daddyicon, body.rtl .menutop li.root .daddy.item .daddyicon {left: 3px;right: inherit;}
+body.rtl .menutop ul li > .daddy span {background-position: 2px -454px;}
+body.rtl .menutop li {float: right;}
+body.rtl .menublock {float: right;}
+
+/* Side Menu */
+body.rtl .module-content ul.menu .menu-arrow {float: right;}
+body.rtl .module-content ul.menu {padding: 0;}
+body.rtl .module-content ul.menu a > span {text-align: left;}
+body.rtl .module-content ul.menu .menu-arrow {margin: 4px 0 0 12px;background-position: 3px -193px;}
+body.rtl .module-content .menu li:hover > .item span > .menu-arrow, body.rtl .module-content .menu li:hover > a span > .menu-arrow {background-position: 3px -465px;}
+body.rtl .module-content ul.menu a:before {right: -10px;left: inherit;}
+body.rtl .module-content ul.menu .menu-arrow, body.rtl .module-content ul.menu a:before {background-position: 3px -193px;}
+body.rtl .module-content .menu li > .item:hover span > .menu-arrow, body.rtl .module-content .menu li > a:hover span > .menu-arrow, body.rtl .module-content .menu li.current.active > a span .menu-arrow, body.rtl .module-content .menu li.active#current > a span .menu-arrow, body.rtl .module-content ul.menu li > a:hover:before, body.rtl .module-content ul.menu li > a:hover:before, body.rtl .module-content ul.menu li.active.current > a:before, body.rtl .module-content ul.menu li.active#current > a:before {background-position: 3px -465px;}
+body.rtl .module-content ul.menu > li a, body.rtl .module-content ul.menu > li > a, body.rtl .module-content ul.menu > li > .nolink > span {padding: 5px 25px 5px 0;}
+
+/* Articles */
+body.rtl .component-content .actions {float: left;}
+
+/* Module Variations */
+body.rtl .title2 .arrow-box {right: 10px;left: inherit;}
+body.rtl .title2 .module-title .title {padding-left: 0;padding-right: 30px;}
+
+/* Member Access */
+body.rtl #login-form label, body.rtl .component-content #password-lbl, body.rtl #username-lbl {float: right;}
+body.rtl .component-content .login + div ul li a, body.rtl #login-form a {padding: 4px 15px 4px 0;background-position: 100% -713px;}
+body.rtl .component-content .login + div ul li a:hover, body.rtl #login-form a:hover {background-position: 100% -462px;}
+
+/* Typography */
+body.rtl ul.dots li {background-position: 100% -213px;padding: 0 25px 0 0;}
+
+/* RokSprocket */
+body.rtl .sprocket-lists-title .indicator {right: inherit;left: 10px;}
+body.rtl .sprocket-lists-arrows .arrow {float: left;}
+body.rtl .sprocket-lists-pagination ul {float: right;}
+body.rtl .sprocket-headlines-navigation .arrow.prev {margin-right: 4px;}
+body.rtl .layout-showcase .sprocket-features-img-container img {float: left;margin-right: 25px;margin-left: 0;}
+body.rtl .layout-showcase .sprocket-features-pagination {left: inherit;right: 50px;}
+body.rtl .sprocket-tabs-nav li {float: right;}
+
+/* RokAjaxSearch */
+body.rtl #rokajaxsearch .inputbox {background-position: 5px -69px;}

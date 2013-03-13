@@ -1,0 +1,25 @@
+/**
+ * @version   1.0 February 16, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2013 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* WordPress Core */
+.button, body .btn-primary {border: none;}
+.menutop li {zoom: 1;position: relative;}
+.login-fields input {width: 165px;}
+.module-title h3 {zoom: 1;}
+div.title1 .rt-block .module-title {padding-top: 1px !important;}
+.login-fields #remember-lbl + input {border: none;width: auto;}
+
+/* Menus */
+#rt-navigation, .menutop .fusion-submenu-wrapper.level2  {zoom: 1;}
+.rt-menubar .menutop li > .item, .rt-menubar .menutop li.f-mainparent-itemfocus > .item {z-index: 9;position: static !important;zoom: 1;}
+.rt-menubar .menutop li:hover > .item, .rt-menubar .menutop li.f-mainparent-itemfocus > .item {z-index: 9;position: static !important;zoom: 1;}
+.horizmenu ul.menu li a:hover, .horizmenu ul.menu li .item:hover, .horizmenu ul.menu li .separator:hover, .horizmenu ul.menu li.active a, .horizmenu ul.menu li.active .item, .horizmenu ul.menu li.active .separator {zoom: 1;}
+
+/* Sprocket */
+.sprocket-mosaic-hovercontent {display: none;}
+.sprocket-mosaic-image-container:hover .sprocket-mosaic-hovercontent {display: block;zoom: 1;}
+.sprocket-mosaic-hovercontent, .menutop li {zoom: 1;}

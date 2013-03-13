@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+
+	<tip id="layout-mode" label="Layout Mode"><![CDATA[Allows you to switch the page layout between fixed and responsive versions, allowing site to adapt to different screen resolutions.]]></tip>
+
+	<tip id="maintenancemode" label="Maintenance Mode"><![CDATA[Allows you to disable the site for the time of making changes, allowing only administrators and selected users to access the front end view.]]></tip>
+	
+	<tip id="cache" label="Gantry Cache"><![CDATA[The Gantry Framework includes a powerful Cache function. It caches the data and can greatly improve performance of the Gantry powered WordPress site.]]></tip>
+	
+	<tip id="gzipper" label="Gantry GZipper"><![CDATA[The Gantry GZipper is a built-in compression and combination system that will ensure all Gantry CSS and JS files are combined and compressed to provide optimal performance. CSS and JS files outside of Gantry will not be included.]]></tip>
+	
+	<tip id="component-enabled" label="Display Content"><![CDATA[Turning this off stops any blog posts from displaying on the homepage. This can be useful if you would like to build your homepage from widgets only.]]></tip>
+	
+	<tip id="mainbody-enabled" label="Display Main Body"><![CDATA[Turning this off stops loading whole Main Body container. This can be useful if you would like to build your homepage from widgets only.]]></tip>
+	
+	<tip id="rtl-enabled" label="RTL Support"><![CDATA[The RTL setting allows you to enable Right-to-Left support in the gantry core. The Gantry theme will switched to RTL automatically as soon as a RTL language is detected.]]></tip>
+	
+	<tip id="typography" label="Typography Styling"><![CDATA[This setting allows you to enable/disable the built-in custom RocketTheme extended typography. If you do not intend to use any extended RocketTheme typography styles on your site, disabling this option can increase performance by reducing the amount of CSS and images that load.]]></tip>
+	
+	<tip id="autoparagraphs" label="Disable Auto Paragraphs"><![CDATA[This setting allows you to disable the WordPress automatic content wrapping into paragraphs. This can be very useful if your content is more complex and automatic paragraphs are causing validation errors.]]></tip>
+	
+	<tip id="texturize-enabled" label="Disable Texturize"><![CDATA[Disables some text transformations like smart (curly) quotes, for content and comments. This can be very useful for example for placing code inside of your content.]]></tip>
+
+	<tip label="Selectivizr" id="selectivizr-enabled"><![CDATA[This setting allows you to enable/disable Selectivizr support for IE7 and IE8. Selectivizr provides support for additional CSS selectors in earlier versions of IE for better compatibility.]]></tip>
+	
+</gantrytips>

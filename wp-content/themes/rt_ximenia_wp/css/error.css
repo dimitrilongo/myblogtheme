@@ -1,0 +1,12 @@
+/**
+ * @version   1.0 February 16, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2013 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+.rt-error-box {margin: 0 auto;border-radius: 5px; padding: 15px; width: 500px;}
+.rt-error-box > div {padding: 20px;border-radius: 5px; border: none;}
+#rt-logo {margin: 0 auto;}
+.error-title {font-weight: normal;}
+#rt-navigation .menu-block {display: none;}

@@ -1,0 +1,66 @@
+/**
+ * @version   1.0 February 16, 2013
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2013 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Global Settings */
+.menutop {list-style: none;margin: 0;padding: 0;position: relative;line-height: 1em;display: inline-block;float: right;}
+.menutop li {height: auto;margin: 0;padding: 0;position: relative;list-style: none;float: left;display: block;}
+.menutop em {display: block;}
+.menutop li .item {display: block;margin: 0;text-decoration: none;float: none;width: auto;white-space: nowrap;cursor: pointer;outline: none;position: relative;height: auto;}
+.menutop li .fusion-submenu-wrapper {float: none;left: -999em;position: absolute;z-index: 500;}
+.menutop li:hover li ul {top: -999em;}
+.menutop li:hover ul {top: 0;}
+
+/* Menu Items */
+.menutop li.root {margin-right: 5px;}
+.menutop li.root > .item > span {padding: 8px 14px;display: block;}
+.menutop li.parent.root .item .daddyicon, .menutop li.root .daddy.item .daddyicon {width: 8px;height: 7px;position: absolute;right: 7px;top: 22px;background-position: 0 0;background-repeat: no-repeat;}
+.menutop li.active .item {background-repeat: repeat-x;border-radius: 5px;}
+.menutop li.root > .item em {font-size: 10px;font-style: normal;line-height: 100%;text-transform: none;letter-spacing: 0.1em;font-weight: normal;}
+.menutop li.parent.root.active .item .daddyicon, .menutop li.root.active .daddy.item .daddyicon {background-position: 0 -649px;}
+.menutop li.root .daddy > span {padding-right: 20px;}
+#rt-navigation .menutop li.root:first-child > .item {padding: 9px 14px 7px 14px;}
+#rt-navigation .menutop li.root:first-child > .item:before {content: "\f015";font-family: FontAwesome;}
+#rt-navigation .menutop li.root:first-child > .item span {display: none;}
+
+/* Dropdown Surrounds */
+.menutop ul {padding: 0;margin: 0;float: left;}
+.fusion-submenu-wrapper {border-radius: 4px;padding: 15px 0 10px;position: relative;background-repeat: repeat-x;background-position: 0 100%;height: auto !important;}
+.fusion-submenu-wrapper:before {content: "";display: block;position: absolute;top: 0;bottom: 0;left: 0;right: 0;border-radius: 4px;}
+.menutop .drop-bot {height: 1px;overflow: hidden;clear: both;}
+.menutop .fusion-submenu-wrapper.level2, .menutop .fusion-submenu-wrapper.level2:before {border-radius: 0 0 4px 4px;}
+.menutop li.root > .item.subtext {line-height: 14px;}
+.menutop .fusion-submenu-wrapper {height: auto;padding: 0;position: relative;}
+
+/* Dropdown Menu Items */
+
+/* Fusion JS */
+.fusion-js-container {display: block;height: 0;left: 0;overflow: visible;position: absolute;top: 0;z-index: 600000!important;background: transparent !important;}
+.fusion-js-subs {display: none;margin: 0;overflow: hidden;padding: 0;position: absolute;}
+.fusion-js-subs ul li {width: 100%;float: none;margin: 0 10px;}
+.menutop .fusion-js-subs li > .item span {display: block;font-size: 0.9em;}
+.menutop .fusion-js-subs li > .item {border-radius: 3px;padding: 3px 8px;}
+.menutop .fusion-js-subs li > .item em {font-size: 10px;line-height: 0.9em;}
+.menutop ul li > .daddy span {background-position: 95% -125px;background-repeat: no-repeat;}
+
+/* JS Disabled */
+.menutop li.root:hover > .fusion-submenu-wrapper {top: 65px;left: 0;}
+.menutop ul li:hover > .fusion-submenu-wrapper {left: 180px;top: -8px;}
+
+/* Grouped & Modules */
+.fusion-grouped {padding: 4px 0 10px 15px;}
+.fusion-grouped ol {padding: 0;}
+.menutop .fusion-module, .menutop .fusion-modules, .menutop .fusion-grouped {display: block;}
+.menutop .fusion-module em {display: inline;}
+.menutop .fusion-module p {white-space: normal;}
+.menutop ul .grouped-parent > .daddy span {background: none;}
+.menutop ul li > .fusion-modules.item:hover {background: none !important;border: none !important;box-shadow: none;}
+.fusion-grouped ol {padding: 0;}
+.menutop .fusion-js-subs li > .fusion-modules.item {padding-right: 18px;}
+.menutop .fusion-module, .menutop .fusion-modules, .menutop .fusion-grouped {display: block;font-size: 100%;}
+.menutop .fusion-module .module-title {margin: 0;padding: 0;}
+.menutop .fusion-module em {display: inline;}
+.menutop .fusion-module p {white-space: normal;}

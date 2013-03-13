@@ -1,0 +1,16 @@
+/**
+ * @version   1.5 November 13, 2012
+ * @author    RocketTheme, LLC http://www.rockettheme.com
+ * @copyright Copyright � 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+#jform_params_use_oauth-lbl { height: 50px;}
+#icon-options-roktwittie {background: url(../images/roktwittie.png) no-repeat 0 0;}
+#roktwittie-settings .widefat td {padding: 4px 7px; vertical-align: middle;}
+.rokplugin {width: 80%; margin: 20px auto 0;}
+#rtlogo {width: 153px; height: 21px; display: block; background: url(../images/rtlogo.png) no-repeat;}
+#roktwittie-settings input.button-primary {padding: 3px 8px; float: right; font-family: sans-serif;}
+#roktwittie-settings tr.separator {background: #666;}
+#roktwittie-settings tr.separator td {border-top-color: #666;}
+#roktwittie-settings tr.separator td strong {color: #fff;}
